@@ -15,7 +15,7 @@ body{
 .lve{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #ff0000, #790069);
+    background: linear-gradient(-45deg, #ff0000, #790069, #ffee00, #0084ff);
     animation: apex 5s ease-in-out infinite;
     background-size: 400% 400%;
 
@@ -56,12 +56,15 @@ body{
 
     }
 
+    25% {
+        background-position: 50% 100%;
+    }
+
     50% {
         background-position: 100% 50%;
     }
-
-    100% {
-        background-position: 0% 50%;
+    100%{
+        background-position: 50% 0%;
     }
 }
 
@@ -116,20 +119,20 @@ section .screen:nth-child(3)
 }
 section .screen .content-1
 {
-    background: linear-gradient(45deg, #3503ad, #f7308c);
-    opacity: 0.8;
+    background: linear-gradient(45deg, #0084ff, #f7308c);
+    
 
 }
 
 section .screen .content-2
 {
-    background: linear-gradient(45deg, #ccff00, #09afff);
+    background: linear-gradient(45deg, #ffee00, #c40000);
 
 }
 
 section .screen .content-3
 {
-    background: linear-gradient(45deg, #e91e63, #ffeb3b);
+    background: linear-gradient(45deg, #f09000, #ee004f);
 
 }
 
@@ -143,7 +146,6 @@ section .screen .content{
     transform: translatex(100%);
     transition: 0.5s;
     text-align: justify;
-    border-radius: 15px 0px 0px 15px;
 }
 
 section .screen:hover .content{
@@ -166,7 +168,39 @@ section .screen:hover .content p{
     padding: 0;
     color: #ffffff;
     padding-bottom: 60px;
+    width: 120px;
 
+}
+
+@media (max-width: 770px){
+
+    section .screen:hover .content p
+    {
+    font-size: 9px;
+    padding-bottom: 40px;
+    position: relative;
+    top: -19px;
+    left: -5px;
+    word-spacing: 0px;
+    font-weight: 200;
+
+    }
+    .lve h3{
+        height: 100vh;
+
+    }
+
+    .lve h3{
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+
+
+    section .screen .content{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+    }
 }
 
 
