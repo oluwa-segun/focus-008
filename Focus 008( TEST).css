@@ -166,6 +166,8 @@ section .screen:hover .content p{
     padding: 0;
     color: #ffffff;
     padding-bottom: 60px;
+    Font-size: 9px;
+    Font-weight: 900;
 
 }
 
