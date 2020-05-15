@@ -168,26 +168,22 @@ section .screen:hover .content p{
     padding: 0;
     color: #ffffff;
     padding-bottom: 60px;
-<<<<<<< HEAD
-    width: 120px;
-
+    width: 260px;
 }
 
 @media (max-width: 770px){
-=======
-    Font-size: 9px;
-    Font-weight: 900;
->>>>>>> 04b83472cd4acb8013503af35541cd2ee5af3fe9
 
     section .screen:hover .content p
     {
     font-size: 9px;
     padding-bottom: 40px;
     position: relative;
-    top: -19px;
+    top: -33px;
     left: -5px;
     word-spacing: 0px;
     font-weight: 200;
+    width: auto;
+    height: auto;
 
     }
     .lve h3{
