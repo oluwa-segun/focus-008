@@ -170,14 +170,9 @@ section .screen:hover .content p{
     padding-bottom: 60px;
 <<<<<<< HEAD
     width: 120px;
-
 }
 
 @media (max-width: 770px){
-=======
-    Font-size: 9px;
-    Font-weight: 900;
->>>>>>> 04b83472cd4acb8013503af35541cd2ee5af3fe9
 
     section .screen:hover .content p
     {
