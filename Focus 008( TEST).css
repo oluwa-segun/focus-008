@@ -168,7 +168,11 @@ section .screen:hover .content p{
     padding: 0;
     color: #ffffff;
     padding-bottom: 60px;
+<<<<<<< HEAD
     width: 260px;
+=======
+    width: 120px;
+>>>>>>> 193f092838ea1d73cf6e7bedc43e8d3a6e86e16a
 }
 
 @media (max-width: 770px){
@@ -178,16 +182,12 @@ section .screen:hover .content p{
     font-size: 9px;
     padding-bottom: 40px;
     position: relative;
-    top: -33px;
+    top: -34px;
     left: -5px;
     word-spacing: 0px;
     font-weight: 200;
     width: auto;
     height: auto;
-
-    }
-    .lve h3{
-        height: 100vh;
 
     }
 
